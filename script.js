@@ -1,4 +1,18 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+
+import {
+  getFirestore,
+  collection,
+  addDoc
+}
+from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+const firebaseConfig = {
+
+  apiKey: "YOUR_API_KEY",
+
+  authDomain: "YOUR_AUTH_DOMAIN",
+
   projectId: "YOUR_PROJECT_ID",
 
   storageBucket: "YOUR_STORAGE_BUCKET",
@@ -12,7 +26,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 const app = initializeApp(firebaseConfig);
 
 const db = getFirestore(app);
-
 /* INTRO + MUSIC */
 
 const music = document.getElementById("music");
