@@ -1,0 +1,89 @@
+*{
+  height:220px;
+  resize:none;
+}
+
+.form-box button{
+
+  padding:18px 40px;
+
+  border:none;
+
+  border-radius:50px;
+
+  background:#ff6da9;
+
+  color:white;
+
+  font-size:1rem;
+
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.form-box button:hover{
+  transform:scale(1.05);
+}
+
+#status{
+  margin-top:20px;
+  color:#ff6da9;
+}
+
+/* ADMIN */
+
+.admin-section{
+  padding:80px 10%;
+}
+
+.admin-section h1{
+  text-align:center;
+  color:#ff6da9;
+  font-size:4rem;
+  margin-bottom:50px;
+  font-family:'Pacifico', cursive;
+}
+
+.message-card{
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:25px;
+
+  margin-bottom:25px;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.message-card h2{
+  color:#ff6da9;
+  margin-bottom:15px;
+}
+
+.message-card p{
+  line-height:1.9;
+}
+
+@media(max-width:768px){
+
+  .hero h1{
+    font-size:3rem;
+  }
+
+  .form-box{
+    width:100%;
+    padding:30px;
+  }
+
+  .form-box h2{
+    font-size:2rem;
+  }
+
+  .admin-section h1{
+    font-size:2.5rem;
+  }
+
+}

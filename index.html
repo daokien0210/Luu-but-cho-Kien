@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Write Something For Me 💌</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- INTRO -->
+
+  <div id="intro">
+
+    <div class="intro-content">
+
+      <h1>Our Youth ✨</h1>
+
+      <p>click anywhere to enter</p>
+
+    </div>
+
+  </div>
+
+  <!-- MUSIC -->
+
+  <audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <h1>Write Something For Me 💌</h1>
+
+    <p>
+      Có thể sau này chúng ta sẽ không còn gặp nhau mỗi ngày nữa.
+      Nhưng mình hy vọng sẽ luôn nhớ về nhau bằng những ký ức đẹp nhất.
+    </p>
+
+  </section>
+
+  <!-- FORM -->
+
+  <section class="form-section">
+
+    <div class="form-box">
+
+      <h2>Leave Your Memory 🌷</h2>
+
+      <input type="text" id="name" placeholder="Tên của bạn ✨">
+
+      <textarea id="message" placeholder="Viết điều bạn muốn nhắn 💖"></textarea>
+
+      <button onclick="sendMessage()">
+        Send 💌
+      </button>
+
+      <p id="status"></p>
+
+    </div>
+
+  </section>
+
+  <!-- FIREBASE -->
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
